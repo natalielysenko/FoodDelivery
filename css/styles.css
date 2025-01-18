@@ -1,0 +1,316 @@
+body {
+  font-family: "Roboto" sans-serif;
+  font-size: 16px;
+  background-color: #fefefe;
+  color: #2c2c2c;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+}
+
+.container {
+  max-width: 1248px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.page-header {
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  margin-right: 30px;
+}
+
+.header-logo {
+  padding: 10px 0;
+  margin-right: auto;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+.header-item {
+}
+.header-item-link {
+  padding: 28px 0;
+  display: block;
+  font-size: 14px;
+}
+
+.header-item-link:focus,
+.header-item-link :hover {
+  color: #bbf330;
+  text-decoration: underline;
+}
+
+.main-btn {
+  min-width: 98px;
+  height: 32px;
+  padding: 6px 18px;
+
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+  text-align: center;
+
+  background-color: #bbf330;
+  border: none;
+  border-radius: 30px;
+}
+.header-btn {
+}
+
+/* hero */
+
+.hero {
+}
+.container-hero {
+  display: flex;
+}
+.hero-text {
+  line-height: 1.5;
+  color: #2c2c2c;
+  margin-bottom: 40px;
+}
+
+.hero-title {
+  font-size: 48px;
+  line-height: 1.2;
+  color: #2c2c2c;
+
+  margin-bottom: 28px;
+}
+.hero-text-container {
+  width: 511px;
+  margin: 158px;
+  margin-left: 0;
+}
+.main-btn {
+}
+.hero-btn {
+}
+.hero-icon {
+}
+
+/* offers */
+
+.offers {
+  background-color: #ffe550;
+}
+.container {
+}
+.offers-container {
+  display: flex;
+  align-items: center;
+}
+.offers-icon {
+  margin-right: 90px;
+}
+.offers-dscr {
+}
+.offers-title {
+  font-size: 42px;
+  line-height: 1.2;
+
+  margin-bottom: 20px;
+}
+.offers-text {
+  line-height: 1.5;
+
+  margin-bottom: 40px;
+}
+.offers-list {
+  display: flex;
+  gap: 67px;
+  margin-bottom: 32px;
+}
+.offers-list-item {
+}
+.offers-item-icon {
+  margin-bottom: 8px;
+}
+.offers-item-subtitle {
+  font-size: 18px;
+  line-height: 1.4;
+
+  margin-bottom: 16px;
+}
+.offers-item-text {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.offers-btn {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+  padding: 10px 20px;
+
+  border: 2px solid #7eb101;
+  border-radius: 30px;
+
+  min-width: 106px;
+  min-height: 40px;
+}
+
+/* favorites */
+
+.container {
+}
+.favorites-container {
+  padding: 100px 0;
+}
+.favorites-title {
+  font-weight: 700;
+  font-size: 42px;
+  text-align: center;
+
+  margin-bottom: 20px;
+}
+.favorites-text {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+
+  margin-bottom: 40px;
+}
+.favorites-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  row-gap: 32px;
+}
+.favorites-list-item {
+  width: calc((100% - 64px) / 3);
+}
+.favorites-item-icon {
+}
+
+/*  */
+
+.reviews {
+  background-color: #ffe550;
+}
+
+.reviews-container {
+  padding: 84px 0;
+}
+.reviews-title {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+.reviews-text {
+  margin-bottom: 32px;
+}
+.reviews-list {
+  display: flex;
+  gap: 139px;
+}
+.reviews-list-item {
+  background-color: #fefefe;
+  padding: 16px;
+  border-radius: 0 30px 30px 30px;
+}
+
+.reviews-stars {
+  padding-bottom: 28px;
+}
+.reviews-item-text {
+  font-weight: 700;
+  font-size: 18px;
+
+  padding-bottom: 40px;
+}
+
+.rewiews-dude {
+  display: flex;
+  gap: 16px;
+}
+
+.reviews-item-icon {
+}
+
+.rewievs-item-subtitle {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.reviews-item-name {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.name-of-dude {
+  padding-right: 14px;
+  border-right: 1px solid #7eb101;
+}
+
+/* subscribe */
+
+.subscribe {
+  padding: 64px 0;
+}
+.subscribe-container {
+  display: flex;
+}
+.subscribe-dscr {
+}
+.subscribe-title {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.2;
+
+  margin-bottom: 20px;
+}
+.subscribe-text {
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
+.subscribe-btn {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+
+  border-radius: 30px;
+  padding: 10px 20px;
+  width: 103px;
+  height: 42px;
+
+  background: #bbf330;
+}
+.subscribe-icon {
+}
