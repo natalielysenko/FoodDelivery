@@ -146,6 +146,11 @@ button {
   background-color: #ffe450;
 }
 .hero-icon {
+  margin-top: 14px;
+  padding: 0;
+  border: 16px solid #ffe550;
+  border-radius: 50%;
+  overflow: hidden;
 }
 .icon-hero-container {
 }
@@ -187,6 +192,14 @@ button {
   display: flex;
   gap: 67px;
   margin-bottom: 32px;
+}
+.offers-icon {
+  fill: #7eb101;
+  background-color: #ffffff;
+  border-radius: 50%;
+  padding: 7px;
+  width: 48px;
+  height: 48px;
 }
 .offers-list-item {
 }
@@ -255,10 +268,6 @@ button {
 }
 .favorites-list-item {
   width: calc((100% - 64px) / 3);
-  padding: 16px 16px;
-  border: 16px solid #ffe550;
-  border-radius: 50%;
-  overflow: hidden;
 }
 .favorites-item-icon {
 }
