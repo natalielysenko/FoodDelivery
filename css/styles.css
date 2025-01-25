@@ -34,7 +34,7 @@ button {
 }
 
 .container {
-  max-width: 1248px;
+  max-width: 1280px;
   margin: 0 auto;
   padding: 0 16px;
 }
@@ -72,22 +72,23 @@ button {
   font-size: 14px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.current-header-link {
-  color: #bbf330;
-  font-weight: 700;
+.header-item-link .current {
+  font-weight: 500;
   position: relative;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.current-header-link::after {
+.header-item-link .current::after {
   content: "";
+  display: block;
   position: absolute;
   height: 1px;
   width: 100%;
   left: 0;
-  bottom: 25px;
+  bottom: 0px;
   background-color: #bbf330;
 }
 
+.header-item-link .current,
 .header-item-link:hover,
 .header-item-link:focus {
   color: #bbf330;
@@ -228,6 +229,7 @@ button {
   font-weight: 700;
   font-size: 42px;
   text-align: center;
+  line-height: 1.5;
 
   margin-bottom: 20px;
 }
@@ -235,6 +237,7 @@ button {
   font-weight: 400;
   font-size: 16px;
   text-align: center;
+  line-height: 1.5;
 
   margin-bottom: 40px;
 }
@@ -246,6 +249,10 @@ button {
 }
 .favorites-list-item {
   width: calc((100% - 64px) / 3);
+  padding: 24px;
+  border: 16px solid #ffe550;
+  border-radius: 50%;
+  overflow: hidden;
 }
 .favorites-item-icon {
 }
